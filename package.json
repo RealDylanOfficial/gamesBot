@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@discordjs/form-data": "^3.0.1",
+    "@types/node": "^18.11.4",
+    "discord.js": "^14.6.0",
+    "node": "^19.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
