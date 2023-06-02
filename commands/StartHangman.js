@@ -162,6 +162,7 @@ module.exports = {
 			//Check for win or loss
 			if (hangmanIndex >= 6){
 				interaction.channel.send("You lose! The word was " + word)
+				collector.stop()
 			}
 			let won = true
 			for (x in discovered){
